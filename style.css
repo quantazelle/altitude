@@ -2520,31 +2520,34 @@ Site Header
 
 /* line 21, ../sass/partials/_site-header.scss */
 .site-header.dark {
-  background-color: #000; }
-  /* line 23, ../sass/partials/_site-header.scss */
+  /*background-color: #000;*/
+  /*removed black background*/
+  background-color: #fff;
+  /*Added white background*/ }
+  /* line 24, ../sass/partials/_site-header.scss */
   .site-header.dark > .wrap {
     border-bottom: none; }
-  /* line 26, ../sass/partials/_site-header.scss */
+  /* line 27, ../sass/partials/_site-header.scss */
   .site-header.dark .nav-secondary {
     display: none; }
 
-/* line 31, ../sass/partials/_site-header.scss */
+/* line 32, ../sass/partials/_site-header.scss */
 .admin-bar .site-header {
   top: 32px; }
 
 /* Title Area
 --------------------------------------------- */
-/* line 38, ../sass/partials/_site-header.scss */
+/* line 39, ../sass/partials/_site-header.scss */
 .title-area {
   float: left;
   padding: 25px 0;
   width: 360px; }
 
-/* line 44, ../sass/partials/_site-header.scss */
+/* line 45, ../sass/partials/_site-header.scss */
 .site-header.dark .title-area {
   padding: 15px 0; }
 
-/* line 48, ../sass/partials/_site-header.scss */
+/* line 49, ../sass/partials/_site-header.scss */
 .site-title {
   font-size: 24px;
   font-weight: 800;
@@ -2552,27 +2555,29 @@ Site Header
   line-height: 1;
   margin-bottom: 0;
   text-transform: uppercase; }
-  /* line 55, ../sass/partials/_site-header.scss */
+  /* line 56, ../sass/partials/_site-header.scss */
   .site-title a {
-    color: #fff !important; }
-    /* line 57, ../sass/partials/_site-header.scss */
+    /**color: #fff**/
+    color: #000 !important; }
+    /* line 58, ../sass/partials/_site-header.scss */
     .site-title a:hover {
-      color: #fff !important; }
+      /**color: #fff**/
+      color: #00 !important; }
 
-/* line 64, ../sass/partials/_site-header.scss */
+/* line 65, ../sass/partials/_site-header.scss */
 .header-image .title-area, .header-image .site-header.dark .title-area {
   padding: 0; }
-/* line 67, ../sass/partials/_site-header.scss */
+/* line 68, ../sass/partials/_site-header.scss */
 .header-image .site-title > a {
   background-size: contain !important;
   display: block;
   height: 76px;
   text-indent: -9999px; }
-/* line 73, ../sass/partials/_site-header.scss */
+/* line 74, ../sass/partials/_site-header.scss */
 .header-image .dark .site-title > a {
   height: 56px; }
 
-/* line 78, ../sass/partials/_site-header.scss */
+/* line 79, ../sass/partials/_site-header.scss */
 .site-description {
   display: block;
   height: 0;

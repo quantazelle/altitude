@@ -101,8 +101,8 @@ unregister_sidebar( 'sidebar-alt' );
 //* Add support for custom header
 add_theme_support( 'custom-header', array(
 	'flex-height'     => true,
-	'width'           => 360,
-	'height'          => 76,
+	'width'           => 85,
+	'height'          => 85,
 	'header-selector' => '.site-title a',
 	'header-text'     => false,
 ) );
@@ -207,26 +207,7 @@ function altitude_post_meta_filter( $post_meta ) {
 }
 
 //* Register widget areas
-genesis_register_sidebar( array(
-	'id'          => 'front-page-1',
-	'name'        => __( 'Front Page 1', 'altitude' ),
-	'description' => __( 'This is the front page 1 section.', 'altitude' ),
-) );
-genesis_register_sidebar( array(
-	'id'          => 'front-page-2',
-	'name'        => __( 'Front Page 2', 'altitude' ),
-	'description' => __( 'This is the front page 2 section.', 'altitude' ),
-) );
-genesis_register_sidebar( array(
-	'id'          => 'front-page-3',
-	'name'        => __( 'Front Page 3', 'altitude' ),
-	'description' => __( 'This is the front page 3 section.', 'altitude' ),
-) );
-genesis_register_sidebar( array(
-	'id'          => 'front-page-4',
-	'name'        => __( 'Front Page 4', 'altitude' ),
-	'description' => __( 'This is the front page 4 section.', 'altitude' ),
-) );
+
 genesis_register_sidebar( array(
 	'id'          => 'front-page-5',
 	'name'        => __( 'Front Page 5', 'altitude' ),

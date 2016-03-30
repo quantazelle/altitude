@@ -12,14 +12,15 @@ Site Header
 }
 
 .featured-section .site-header {
-  background-color: transparent;
+  background-color: transparent; 
   > .wrap {
     border-bottom: 1px solid #fff;
   }
 }
 
 .site-header.dark {
-  background-color: #000;
+  /*background-color: #000;*/ /*removed black background*/
+  background-color: #fff; /*Added white background*/
   > .wrap {
     border-bottom: none;
   }
@@ -53,9 +54,9 @@ Site Header
   margin-bottom: 0;
   text-transform: uppercase;
   a {
-    color: #fff !important;
+    /**color: #fff**/ color: #000 !important;
     &:hover {
-      color: #fff !important;
+      /**color: #fff**/ color: #00 !important;
     }
   }
 }
