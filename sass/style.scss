@@ -1,0 +1,91 @@
+/*
+	Theme Name: Altitude Pro Theme
+	Theme URI: http://my.studiopress.com/themes/altitude/
+	Description: Make a stunning first impression, grab attention, and dynamically tell your story with beautiful images and clean typography.
+	Author: StudioPress
+	Author URI: http://www.studiopress.com/
+
+	Version: 1.0.2
+
+	Tags: black, white, blue, green, orange, pink, one-column, two-columns, responsive-layout, custom-header, custom-menu, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
+
+	Template: genesis
+	Template Version: 2.1
+
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php 
+*/
+
+
+/* Table of Contents
+
+	- HTML5 Reset
+		- Baseline Normalize
+		- Box Sizing
+		- Float Clearing
+	- Defaults
+		- Typographical Elements
+		- Headings
+		- Objects
+		- Gallery
+		- Forms
+		- Buttons
+		- Tables
+	- Structure and Layout
+		- Site Containers
+		- Column Widths and Positions
+		- Column Classes
+	- Common Classes
+		- Avatar
+		- Genesis
+		- Search Form
+		- Titles
+		- WordPress
+	- Widgets
+	- Plugins
+		- Genesis eNews Extended
+		- Jetpack
+	- Site Header
+		- Title Area
+		- Widget Area
+	- Site Navigation
+		- Primary Navigation
+		- Secondary Navigation
+		- Footer Navigation
+		- Responsive Menu
+	- Content Area
+		- Front Page
+		- Dashicons
+		- Flexible Widgets
+		- Content
+		- Entries
+		- Entry Meta
+		- After Entry
+		- Pagination
+		- Content Boxes
+		- Comments
+	- Sidebar
+	- Footer Widgets
+	- Site Footer
+	- Media Queries
+		- Max-width: 1280px
+		- Max-width: 1200px
+		- Max-width: 1023px
+		- Max-width: 800px
+		- Max-width: 480px
+
+*/
+
+@import "partials/_reset.scss";
+@import "partials/_structure-layout.scss";
+@import "partials/_common-classes.scss";
+@import "partials/_widgets.scss";
+@import "partials/_plugins.scss";
+@import "partials/_site-header.scss";
+@import "partials/_site-navigation.scss";
+@import "partials/_content-area.scss";
+@import "partials/_sidebar.scss";
+@import "partials/_footer-widgets.scss";
+@import "partials/_site-footer.scss";
+@import "partials/_media-queries.scss";
+
